@@ -1,4 +1,4 @@
-#@title class GCN 
+from torch_geometric.nn import GCNConv
 class GCN(nn.Module):
   def __init__(
       self,
